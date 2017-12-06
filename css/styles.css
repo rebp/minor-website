@@ -53,7 +53,7 @@ h1,h1,h3,h4,h5, p {
     background-image: url('../images/bg-3.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /* Product */
@@ -61,5 +61,5 @@ h1,h1,h3,h4,h5, p {
     background-image: url('../images/bg-4.jpeg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
