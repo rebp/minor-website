@@ -103,7 +103,7 @@ body {
   z-index: 1500;
 }
 .overlay.open {
-  opacity: .7;
+  opacity: 1;
   visibility: visible;
   height: 100%;
 }
