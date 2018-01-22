@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +13,29 @@
     <link rel="stylesheet" href="css/full-screen.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
+
     <title>Minor</title>
 </head>
+
 <body>
 
     <div class="button_container" id="toggle">
         <span class="top"></span>
         <span class="middle"></span>
         <span class="bottom"></span>
-        </div>
-        
-        <div class="overlay" id="overlay">
+    </div>
+
+    <div class="overlay" id="overlay">
         <nav class="overlay-menu">
             <ul>
-                <li ><a href="#scrollto-section-1">Introductie</a></li>
+                <li><a href="#scrollto-section-1">Introductie</a></li>
                 <li><a href="#scrollto-section-2">Research</a></li>
                 <li><a href="#scrollto-section-3">Concept</a></li>
                 <li><a href="#scrollto-section-4">Product</a></li>
             </ul>
         </nav>
     </div>
-        
+
     <section class="scrollable-section section-one d-flex align-items-center" data-section-title="Home">
         <p class="left corner-text">SPIRIT 2017</p>
         <div class="container">
@@ -46,9 +48,9 @@
                 <div class="col-sm-12 text-center mb-5 mt-5">
                     <h4 class="section-heading d-inline">Introductie</h4>
                 </div>
-                <div class="col-sm-12 text-center" style="margin-top:15%;">                   
-                    <p class="section-heading-intro ">In opdracht voor het Instituut <span class="red-block">Beeld en Geluid </span>, is er een innovatief concept geboren genaamd Flits. 
-                            Flits is een tijdmachine die door middel van item-item based techniek data verzameld over de gebruikercreëert een nieuwe voorbeleving voor de huige en toekomstige bezoekers van het museum. </p>
+                <div class="col-sm-12 text-center" style="margin-top:15%;">
+                    <p class="section-heading-intro ">In opdracht voor het Instituut <span class="red-block">Beeld en Geluid </span>, is er een innovatief concept geboren genaamd Flits. Flits is een tijdmachine die door middel van item-item based techniek data verzameld over de gebruikercreëert
+                        een nieuwe voorbeleving voor de huige en toekomstige bezoekers van het museum. </p>
                     <p class="section-heading-body"></p>
                 </div>
             </div>
@@ -60,11 +62,11 @@
                 <div class="col-sm-12 mb-5" style="margin-top:20%;">
                     <h4 class="section-heading d-inline left">Research</h4>
                 </div>
-                <div class="col-sm-8">                   
-                    <p class="section-heading-intro d-inline left text-black font-md" style="position:relative;"> Tijdens dit project is er onderzoek gedaan naar de huidige merkbeleving van het Instituut.
-                            Ook zijn er verschillende onderzoeken uitgevoerd om achter de ervaring en belangen van de doelgroep te komen. <img src="images/image-1.jpeg" style="position:absolute;bottom: -50px;"/></p>
+                <div class="col-sm-8">
+                    <p class="section-heading-intro d-inline left text-black font-md" style="position:relative;"> Tijdens dit project is er onderzoek gedaan naar de huidige merkbeleving van het Instituut. Ook zijn er verschillende onderzoeken uitgevoerd om achter de ervaring en belangen van de doelgroep te komen. <img src="images/image-1.jpeg"
+                            style="position:absolute;bottom: -50px;" /></p>
                     <p class="section-heading-body mt-5">
-                            <input class="btn custom-btn left" type="button" value="Bekijk verslag">
+                        <input class="btn custom-btn left" type="button" value="Bekijk verslag">
                     </p>
                 </div>
             </div>
@@ -100,7 +102,7 @@
     </section>
 
 
-    <!-- Script -->
+    <!-- Scripts -->
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
@@ -109,15 +111,14 @@
     <script src="js/jquery.stellar.js"></script>
 
     <script type="text/javascript">
-        
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('body').sectionScroll({
                 bulletsClass: 'section-bullets',
                 sectionsClass: 'scrollable-section',
                 scrollDuration: 1000,
                 titles: false,
                 topOffset: 0,
-                easing: ''               
+                easing: ''
             });
 
             $('#toggle').click(function() {
@@ -125,7 +126,7 @@
                 $('#overlay').toggleClass('open');
             });
 
-            $('.overlay ul li a').on('click', function(){
+            $('.overlay ul li a').on('click', function() {
                 $('#toggle').removeClass('active');
                 $('#overlay').removeClass('open');
             });
@@ -143,15 +144,15 @@
                         return openerElement.is('img') ? openerElement : openerElement.find('img');
                     }
                 }
-                });
+            });
 
             $.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
-			});
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
         })
-    
     </script>
 
 </body>
+
 </html>
