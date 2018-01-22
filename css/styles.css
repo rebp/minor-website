@@ -1,23 +1,46 @@
-
+/* Basic */
 html, body {
     margin: 0;
     padding: 0;
     font-size: 14px;
 }
 
-h1,h1,h3,h4,h5, p {
+@font-face {
+    font-family: CircularStd-Medium;
+    src: url("../fonts/CircularStd-Medium.otf") format("opentype");
+}
+
+h1,h1,h3,h4,h5, a {
+    font-family: CircularStd-Medium;
     color: #fff;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+p.corner-text {
+     writing-mode: tb-rl;
+     transform: rotate(180deg);
+     font-size: 17px;
+     letter-spacing: 4px;
+     position: relative;
+     top: -395px;
+}
+
+span.red-block {
+    background:linear-gradient(#FF0000 50% , #2741FC 50% );
+}
+
 .section-heading {
-    color : #f00;
+    color : #FF0000;
     border-bottom-style: solid;
     border-bottom-width: .1em;
-    width: 32%; 
+    width: 10%; 
 }
 
 .section-heading-intro {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 500;
 }
 
@@ -41,7 +64,8 @@ h1,h1,h3,h4,h5, p {
 
 /* Research */
 #scrollto-section-2 {
-    background-color: #141414;
+    background: linear-gradient(#2741FC 80% , #fff );
+    /* background-color: #2741FC; */
 }
 
 .section-two .container {
@@ -50,7 +74,8 @@ h1,h1,h3,h4,h5, p {
 
 /* Concept */
 #scrollto-section-3 {
-    background-image: url('../images/bg-3.jpg');
+    /* background-image: url('../images/bg-3.jpg'); */
+    background: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
