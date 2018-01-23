@@ -1,5 +1,7 @@
 /* Basic */
-html, body {
+
+html,
+body {
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -10,7 +12,12 @@ html, body {
     src: url("../fonts/CircularStd-Medium.otf") format("opentype");
 }
 
-h1,h1,h3,h4,h5, a {
+h1,
+h1,
+h3,
+h4,
+h5,
+a {
     font-family: CircularStd-Medium;
     color: #fff;
 }
@@ -19,24 +26,25 @@ p {
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
+
 p.corner-text {
-     writing-mode: tb-rl;
-     transform: rotate(180deg);
-     font-size: 17px;
-     letter-spacing: 4px;
-     position: relative;
-     top: -395px;
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    font-size: 17px;
+    letter-spacing: 4px;
+    position: relative;
+    top: -395px;
 }
 
 span.red-block {
-    background:linear-gradient(#FF0000 50% , #2741FC 50% );
+    background: linear-gradient(#FF0000 50%, #2741FC 50%);
 }
 
 .section-heading {
-    color : #FF0000;
+    color: #FF0000;
     border-bottom-style: solid;
     border-bottom-width: .1em;
-    width: 10%; 
+    width: 10%;
 }
 
 .section-heading-intro {
@@ -50,23 +58,50 @@ span.red-block {
 }
 
 .scrollable-section {
-    height: 100vh;   
+    height: 100vh;
+}
+
+.scrollable-section.section-three {
+    height: 150vh;
+}
+
+.scrollable-section.section-four {
+    height: 165vh;
+}
+
+.scrollable-section.section-five {
+    height: 300vh;
 }
 
 .container.custom-container {
- 
-    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 67%, rgba(255,255,255,0.3) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 67%,rgba(255,255,255,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 40%,rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
-    height: 1000px;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 0.3) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 40%, rgba(255, 255, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+    height: 1400px;
 }
+
+.container.custom-container2 {
+    position: relative;
+    background: #FFF;
+    height: 650px;
+    width: 500px;
+}
+
+.container.custom-container3 {
+    position: relative;
+    background: #000;
+    height: 650px;
+}
+
+
+/* Custom class */
 
 .btn.custom-btn {
     display: inline-block;
-    background:#2741FC;
-    color:#fff;
-    font-weight:100;
+    background: #2741FC;
+    color: #fff;
+    font-weight: 100;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -83,14 +118,56 @@ span.red-block {
 }
 
 .text-black {
-    color:#000;
+    color: #000;
 }
 
-.font-md{
+.text-white {
+    color: #FFF;
+}
+
+.text-grey {
+    color: #CCC;
+}
+
+.text-red {
+    color: #FF0000;
+}
+
+.font-xs {
+    font-size: 15px;
+}
+
+.font-sm {
+    font-size: 20px;
+}
+
+.font-md {
     font-size: 25px;
 }
 
+.font-lg {
+    font-size: 30px;
+}
+
+.font-lg-x {
+    font-size: 40px;
+}
+
+.font-red-text {
+    font-size: 11px;
+}
+
+.padding-md {
+    padding: 20px;
+}
+
+.padding-left-lg {
+    padding-left: 120px;
+}
+
+
 /* Introductie */
+
 #scrollto-section-1 {
     background-color: #000000;
 }
@@ -100,7 +177,9 @@ span.red-block {
     margin-left: 14%;
 }
 
+
 /* Research */
+
 #scrollto-section-2 {
     background: #2741FC;
     /* background-color: #2741FC; */
@@ -110,21 +189,24 @@ span.red-block {
     padding-top: 5%;
 }
 
+
 /* Concept */
+
 #scrollto-section-3 {
     /* background-image: url('../images/bg-3.jpg'); */
-    background:#2741FC;
+    background: #2741FC;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 /* Product */
+
 #scrollto-section-4 {
     /* background-image: url('../images/bg-4.jpeg'); */
-    background:#fff;
+    background: #2741FC;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
