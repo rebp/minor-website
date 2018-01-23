@@ -1,7 +1,7 @@
 .bullets-container {
     display: table;
     position: fixed;
-    right: 5px;
+    right: 25px;
     top: 45%;
     height: 100%;
     z-index: 1049;
