@@ -73,6 +73,7 @@ span.red-block {
     height: 300vh;
 }
 
+
 .container.custom-container {
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 0.3) 100%);
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
@@ -94,6 +95,11 @@ span.red-block {
     height: 650px;
 }
 
+.container.custom-container4 {
+    position: relative;
+    height: 650px;
+    width: 500px;
+}
 
 /* Custom class */
 
@@ -200,7 +206,6 @@ span.red-block {
     background-size: cover;
 }
 
-
 /* Product */
 
 #scrollto-section-4 {
@@ -209,4 +214,12 @@ span.red-block {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#scrrollto-section-7 {
+    background: rgb(172,24,96);
+    background: -moz-linear-gradient(top, rgba(172,24,96,1) 65%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(172,24,96,1) 65%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(172,24,96,1) 65%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac1860', endColorstr='#ffffff',GradientType=0 );
 }
