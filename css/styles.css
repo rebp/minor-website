@@ -91,6 +91,10 @@ span.red-block {
     height: 480vh;
 }
 
+.scrollable-section.section-eleven {
+    height: 480vh;
+}
+
 .container.custom-container {
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 0.3) 100%);
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
@@ -558,7 +562,7 @@ hr {
     opacity: 0.5;
 }
 
-.bg-joy {
+/* .bg-joy {
     background-image: url(../images/joyside.png);
     line-height: 1.4;
     padding: 120px 50px 50px 50px;
@@ -568,7 +572,7 @@ hr {
     background-size: 140% 100%;
     position: absolute;
     opacity: 0.1;
-}
+} */
 
 .bg-timemachine {
     background-image: url(../images/website-timemachine-model.png);
@@ -724,7 +728,7 @@ hr {
         height: 360vh;
     }
     .scrollable-section.section-six {
-        height: 100vh;
+        height: 120vh;
     }
     .scrollable-section.section-nine {
         height: 420vh;
