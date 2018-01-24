@@ -66,15 +66,19 @@ span.red-block {
 }
 
 .scrollable-section.section-four {
-    height: 165vh;
+    height: 200vh;
 }
 
 .scrollable-section.section-five {
-    height: 360vh;
+    height: 440vh;
+}
+
+.scrollable-section.section-six {
+    height: 131vh;
 }
 
 .scrollable-section.section-seven {
-    height: 150vh;
+    height: 200vh;
 }
 
 .scrollable-section.section-eight {
@@ -83,6 +87,10 @@ span.red-block {
 
 .scrollable-section.section-nine {
     height: 500vh;
+}
+
+.scrollable-section.section-nine {
+    height: 480vh;
 }
 
 .container.custom-container {
@@ -333,6 +341,61 @@ hr {
     background-size: 100% 100%;
 }
 
+.bg-joy {
+    background-image: url("../images/joy3.png");
+    line-height: 1.4;
+    padding: 120px 50px 50px 50px;
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.bg-rober {
+    background-image: url("../images/rober.png");
+    line-height: 1.4;
+    padding: 120px 50px 50px 50px;
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.bg-esmee {
+    background-image: url("../images/esmee.png");
+    line-height: 1.4;
+    padding: 120px 50px 50px 50px;
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.bg-iris {
+    background-image: url("../images/iris.jpg");
+    line-height: 1.4;
+    padding: 120px 50px 50px 50px;
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.bg-stefan {
+    background-image: url("../images/stefan2.png");
+    line-height: 1.4;
+    padding: 120px 50px 50px 50px;
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
 .bg-face {
     background-image: url(../images/face.jpg);
     line-height: 1.4;
@@ -351,6 +414,18 @@ hr {
     padding: 120px 50px 50px 50px;
     width: 100%;
     height: 1200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    opacity: 0.1;
+}
+
+.bg-stripes2 {
+    background-image: url(../images/maxresdefault.jpg);
+    line-height: 1.4;
+    padding: 120px 50px 50px 50px;
+    width: 100%;
+    height: 2000px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;
@@ -518,5 +593,14 @@ hr {
     }
     .scrollable-section.section-three {
         height: 220vh;
+    }
+    .scrollable-section.section-five {
+        height: 360vh;
+    }
+    .scrollable-section.section-six {
+        height: 100vh;
+    }
+    .scrollable-section.section-nine {
+        height: 340vh;
     }
 }
