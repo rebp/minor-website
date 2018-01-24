@@ -66,7 +66,7 @@ span.red-block {
 }
 
 .scrollable-section.section-four {
-    height: 200vh;
+    height: 150vh;
 }
 
 .scrollable-section.section-five {
@@ -98,6 +98,7 @@ span.red-block {
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 67%, rgba(255, 255, 255, 1) 100%);
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 40%, rgba(255, 255, 255, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+    height: 900px;
 }
 
 .container.custom-container2 {
@@ -285,6 +286,28 @@ hr {
     width: 100px;
     height: 100px;
 }
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 100%; 
+}
+
+.beeldgeluid-logo {
+    max-width: 200%;
+}
+
+.square {
+    border-radius: 2px;
+    border: 5px solid #FFF;
+    width: 500px;
+    height: 650px;
+    right: 340px;
+    position: absolute;
+}
+
 
 .bg-smiley {
     background-image: url("../images/DesignElementen.png");
@@ -592,7 +615,7 @@ hr {
         height: 80vh;
     }
     .scrollable-section.section-three {
-        height: 220vh;
+        height: 110vh;
     }
     .scrollable-section.section-five {
         height: 360vh;
