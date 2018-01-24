@@ -12,6 +12,7 @@ body {
     src: url("../fonts/CircularStd-Medium.otf") format("opentype");
 }
 
+
 h1,
 h1,
 h3,
@@ -85,9 +86,6 @@ span.red-block {
     height: 600vh;
 }
 
-.scrollable-section.section-nine {
-    height: 500vh;
-}
 
 .scrollable-section.section-nine {
     height: 480vh;
@@ -214,7 +212,7 @@ hr {
 
 .color-fill4:hover {
     background-size: 100% 100%;
-    color: ##2741FC;
+    color: #2741FC;
 }
 
 
@@ -445,37 +443,37 @@ hr {
     background-size: 100% 100%;
 }
 
-.bg-joy {
-    background-image: url("../images/joy3.png");
+.bg-joy1 {
+    background-image: url("../images/joy.png");
     line-height: 1.4;
     padding: 120px 50px 50px 50px;
     width: 100%;
     height: 500px;
     margin: 20px auto;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
 }
 
 .bg-rober {
-    background-image: url("../images/rober.png");
+    background-image: url("../images/robert.jpg");
     line-height: 1.4;
     padding: 120px 50px 50px 50px;
     width: 100%;
     height: 500px;
     margin: 20px auto;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
 }
 
 .bg-esmee {
-    background-image: url("../images/esmee.png");
+    background-image: url("../images/esmee.jpg");
     line-height: 1.4;
     padding: 120px 50px 50px 50px;
     width: 100%;
     height: 500px;
     margin: 20px auto;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
 }
 
 .bg-iris {
@@ -486,18 +484,18 @@ hr {
     height: 500px;
     margin: 20px auto;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
 }
 
 .bg-stefan {
-    background-image: url("../images/stefan2.png");
+    background-image: url("../images/stefan.jpg");
     line-height: 1.4;
     padding: 120px 50px 50px 50px;
     width: 100%;
     height: 500px;
     margin: 20px auto;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
 }
 
 .bg-face {
@@ -729,6 +727,6 @@ hr {
         height: 100vh;
     }
     .scrollable-section.section-nine {
-        height: 340vh;
+        height: 420vh;
     }
 }
