@@ -140,25 +140,23 @@
                             en het heden heen. Flits genegeerd een mediatype dat het beste bij jou past, maar de uitslag kom je pas in het museum te weten. Print het ticket uit en neem hem mee!
                         </p>
                     </div>
-                </div>
-            </div>
-            <iframe width="1920" height="800" src="https://www.youtube.com/embed/cMoh3YlBZrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div class="col-sm-12 " style="">
-                <div class="container custom-container3 pt-3 text-center">
-                    <div class="col-sm-12 text-center mb-5 mt-5">
-                        <h4 class="section-heading d-inline text-white mt-5">Flits is</h4>
+                    <div class="padding-top-md">
+                        <iframe width="1100" height="800" src="https://www.youtube.com/embed/cMoh3YlBZrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 text-center">
-                BACKGROUND IMAGES
-            </div>
-            <div class="col-sm-12 text-center">
-                BACKGROUND IMAGES
+
+            <div class="col-sm-12" style="">
+                <div class="container custom-container3-1 pt-3 text-center">
+                    <div class="col-sm-12 text-center mb-5 mt-5">
+                        <h4 class="d-inline text-white mt-5 font-gradient">Flits is</h4>
+                    </div>
+                </div>
+                <div class="bg-keyboard">
+                </div>
             </div>
         </div>
-        <div class="bg-keyboard">
-        </div>
+
     </section>
 
     <section class="scrollable-section section-six" data-section-title="Work" data-stellar-background-ratio="0.5">
@@ -225,13 +223,15 @@
                 <div class="col-sm-12 col-md-6 left padding-top-lg">
                     <h4 class="d-inline text-white font-md">Bijzondere titels <br>Custom Din Pro</h4>
                 </div>
-                <div class="col-sm-12 col-md-6 right padding-top-lg ">
+                <div class="col-sm-12 col-md-6 right padding-top-lg">
                     <h4 class="d-inline font-md text-dark font-special">Abcdefghijklm</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-4 left padding-top-lg">
-                    <img src="images\1989-2003.png" class="img-fluid" style="max-width: 140%;" />
+                    <div class="img-magnifier-container">
+                        <img id="myimage" src="images\1989-2003.png" class="img-fluid" style="max-width: 140%;" />
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 offset-md-2 right padding-top-lg padding-bottom-lg" style="line-height: 2em;">
                     <h4 class="d-inline text-white font-lg">Titel jaartallen <br>Din Next LT Pro</h4><br><br>
@@ -311,7 +311,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -362,6 +361,7 @@
     <script src="js/jquery.section-scroll.js "></script>
     <script src="js/jquery.magnific-popup.js "></script>
     <script src="js/jquery.stellar.js "></script>
+    <script src="js/magnify.js "></script>
 
     <script type="text/javascript ">
         $(document).ready(function() {
@@ -404,6 +404,11 @@
                 verticalOffset: 40
             });
         })
+
+
+        /* Initiate Magnify Function
+        with the id of the image, and the strength of the magnifier glass:*/
+        magnify("myimage", 3);
     </script>
 
 </body>
