@@ -12,7 +12,6 @@ body {
     src: url("../fonts/CircularStd-Medium.otf") format("opentype");
 }
 
-
 h1,
 h1,
 h3,
@@ -33,7 +32,6 @@ p.corner-text {
     transform: rotate(180deg);
     font-size: 17px;
     letter-spacing: 4px;
-    position: relative;
     top: -395px;
 }
 
@@ -62,16 +60,20 @@ span.red-block {
     height: 100vh;
 }
 
+.scrollable-section.section-two {
+    height: 98vh;
+}
+
 .scrollable-section.section-three {
     height: 230vh;
 }
 
 .scrollable-section.section-four {
-    height: 150vh;
+    height: 320vh;
 }
 
 .scrollable-section.section-five {
-    height: 440vh;
+    height: 460vh;
 }
 
 .scrollable-section.section-six {
@@ -79,20 +81,23 @@ span.red-block {
 }
 
 .scrollable-section.section-seven {
-    height: 200vh;
+    height: 150vh;
 }
 
 .scrollable-section.section-eight {
-    height: 600vh;
+    height: 500vh;
 }
 
-
 .scrollable-section.section-nine {
-    height: 480vh;
+    height: 650vh;
+}
+
+.scrollable-section.section-ten {
+    height: 100vh;
 }
 
 .scrollable-section.section-eleven {
-    height: 480vh;
+    height: 180vh;
 }
 
 .container.custom-container {
@@ -163,8 +168,8 @@ hr {
     position: relative;
     display: inline-block;
     padding: 50px 60px;
-    border: 3px solid  #FFFFFF;
-    color:  #FFFFFF;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
     font-size: 30px;
     font-family: arial;
     background-image: linear-gradient(#FFFFFF, #FFFFFF);
@@ -218,7 +223,6 @@ hr {
     background-size: 100% 100%;
     color: #2741FC;
 }
-
 
 
 /* Custom class */
@@ -374,8 +378,8 @@ hr {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 100%; 
-    min-height: 100%; 
+    width: 100%;
+    min-height: 100%;
 }
 
 .beeldgeluid-logo {
@@ -390,7 +394,6 @@ hr {
     right: 340px;
     position: absolute;
 }
-
 
 .bg-smiley {
     background-image: url("../images/DesignElementen.png");
@@ -562,6 +565,7 @@ hr {
     opacity: 0.5;
 }
 
+
 /* .bg-joy {
     background-image: url(../images/joyside.png);
     line-height: 1.4;
@@ -689,7 +693,16 @@ hr {
         height: 250vh;
     }
     .scrollable-section.section-eight {
-        height: 600vh;
+        height: 500vh;
+    }
+    .scrollable-section.section-four {
+        height: 250vh;
+    }
+    .scrollable-section.section-five {
+        height: 400vh;
+    }
+    .scrollable-section.section-seven {
+        height: 150vh;
     }
 }
 
@@ -698,7 +711,16 @@ hr {
 
 @media (min-width: 768px) {
     .scrollable-section.section-three {
-        height: 240vh;
+        height: 170vh;
+    }
+    .scrollable-section.section-four {
+        height: 250vh;
+    }
+    .scrollable-section.section-five {
+        height: 400vh;
+    }
+    .scrollable-section.section-eight {
+        height: 350vh;
     }
 }
 
@@ -708,6 +730,12 @@ hr {
 @media (min-width: 992px) {
     .scrollable-section.section-three {
         height: 220vh;
+    }
+    .scrollable-section.section-five {
+        height: 350vh;
+    }
+    .scrollable-section.section-seven {
+        height: 100vh;
     }
 }
 
@@ -722,15 +750,21 @@ hr {
         height: 80vh;
     }
     .scrollable-section.section-three {
-        height: 110vh;
+        height: 140vh;
+    }
+    .scrollable-section.section-four {
+        height: 200vh;
     }
     .scrollable-section.section-five {
-        height: 360vh;
+        height: 400vh;
     }
     .scrollable-section.section-six {
         height: 120vh;
     }
+    .scrollable-section.section-seven {
+        height: 100vh;
+    }
     .scrollable-section.section-nine {
-        height: 420vh;
+        height: 500vh;
     }
 }
