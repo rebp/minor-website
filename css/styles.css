@@ -411,7 +411,7 @@ hr {
 }
 
 .bg-interface2 {
-    background-image: url("../images/scherm-2.1.jpg");
+    background-image: url("/images/scherm-2.1.jpg");
     line-height: 1.4;
     padding: 120px 50px 50px 50px;
     width: 100%;
